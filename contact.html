@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contacto Desarrollo Web | Roberto Canjura</title>
+
+  <meta name="description" content="Contáctanos para diseño web, desarrollo y sistemas web a medida.">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">
+      Roberto Canjura
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="systems.html">Sistemas Web</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portafolio</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HEADER -->
+<section class="page-header text-center">
+  <div class="container">
+    <h1 class="fw-bold">Contacto</h1>
+    <p class="lead">
+      Cuéntanos tu proyecto y te respondemos pronto
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT FORM -->
+<section class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+
+      <div class="col-lg-6">
+        <form action="https://submit-form.com/Lr0q4XSWi" method="POST" class="service-card">
+
+          <!-- REDIRECT -->
+          <input type="hidden" name="_redirect" value="https://robertocanjura.com/gracias.html">
+
+          <!-- NOMBRE -->
+          <div class="mb-3">
+            <label class="form-label">Nombre completo</label>
+            <input type="text" name="name" class="form-control" required>
+          </div>
+
+          <!-- EMAIL -->
+          <div class="mb-3">
+            <label class="form-label">Correo electrónico</label>
+            <input type="email" name="email" class="form-control" required>
+          </div>
+
+          <!-- SERVICIO -->
+          <div class="mb-3">
+            <label class="form-label">Servicio de interés</label>
+            <select name="service" class="form-select" required>
+              <option value="">Seleccione una opción</option>
+              <option>Diseño Web</option>
+              <option>Desarrollo Web</option>
+              <option>Sistemas Web</option>
+              <option>Otro</option>
+            </select>
+          </div>
+
+          <!-- MENSAJE -->
+          <div class="mb-4">
+            <label class="form-label">Mensaje</label>
+            <textarea name="message" rows="5" class="form-control" required></textarea>
+          </div>
+
+          <!-- BOTON -->
+          <button type="submit" class="btn btn-primary w-100">
+            Enviar mensaje
+          </button>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-4 bg-dark text-white text-center">
+  <p class="mb-0">
+    © 2025 Roberto Canjura · Contacto Profesional
+  </p>
+  <p>Servicios de diseño y desarrollo web en El Salvador.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    once: true,
+    easing: 'ease-in-out'
+  });
+</script>
+
+
+</body>
+</html>
